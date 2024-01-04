@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import WorkoutForm from "./components/WorkoutForm";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/addNewWorkout" element={<WorkoutForm/>} />
           </Routes>
         </div>
         </BrowserRouter>

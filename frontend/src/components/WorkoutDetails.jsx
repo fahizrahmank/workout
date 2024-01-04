@@ -11,6 +11,7 @@ const WorkoutDetails = ({workout}) => {
 
 
     </div>
+    
   )
 }
 
